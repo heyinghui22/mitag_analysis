@@ -1,0 +1,41 @@
+package:
+  name: mitag_analysis
+  version: "0.1.0"
+
+source:
+  path: /mnt/data4/project/HYHsoftware240130/conda_upload/mitag_analysis
+
+build: 
+  number: 2
+  entry_points: 
+    - mitag_analysis = mitag_analysis:main
+
+requirements: 
+  build: 
+    - python>=3.10
+    - setuptools
+    - make
+  run: 
+    - python>=3.10
+    - perl=5
+    - seqkit=2.9.0
+    - hmmer=3.4 
+    - biopython=1.84
+    - pandas=2.2.3
+  
+test: 
+  source_files: 
+    - mitag_analysis-command/*
+    - mitag_analysis-scripts/*
+    - installation/*
+    - testdata/*
+    - mitag_analysis.py
+  commands: 
+    - mitag_analysis -i ./ -t 16S -th 10
+    - mitag_analysis -i ./ -t 18S -th 10
+    
+
+about:
+  home: "https://github.com/heyinghui22/mitag_analysis"
+  summary: "A package for getting 16S rRNA (v4 zone) and 18S rRNA (v9 zone) seqence for analysising from metagenome and metatranscriptome."
+  license: "MIT"

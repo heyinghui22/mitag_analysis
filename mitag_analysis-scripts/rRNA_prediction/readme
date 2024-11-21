@@ -1,0 +1,15 @@
+How to run meta-RNA program:
+
+Go into directory of "XXX/rRNA_prediction/examples/e1". Then modify the content of "run.sh" file:
+
+export PATH=/home/swu/rRNA_prediction/rRNA_hmm_fs_wst_v0:$PATH
+../../scripts/rRNA_hmm_run_wst_v0.pl  input.1 output.1
+
+
+First line: give the path for HMM3.0 software. You should change it to your local path like "XXXXXXX/rRNA_prediction/rRNA_hmm_fs_wst_v0:$PATH".
+Second line: run rRNA prediction with two parameters:
+(1) "input.1" is a directory containing all the DNA FASTA files. In this examples, only one file "a.fna" is used.
+(2) "output.1" is a directory containing the output files: a.fna.coord, a.fna.seq, a.fna..mask
+
+To run the program, you should first create "input.1" directory and put all your DNA FASTA files into it. You don't need to create "output.1" directory before running the program.
+

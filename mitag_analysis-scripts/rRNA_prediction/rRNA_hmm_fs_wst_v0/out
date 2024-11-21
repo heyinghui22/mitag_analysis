@@ -1,0 +1,4 @@
+##seq_name	method	feature	start	end	evalue	strand	attribute
+SRR000219.192672 from 18819-GS20	rna_hmm3	rRNA	65	117	2.7e-13	-	16S_rRNA
+SRR000278.162042 from 20095-GS20	rna_hmm3	rRNA	2	97	5e-30	-	23S_rRNA
+SRR000311.214797 from 17265-GS20	rna_hmm3	rRNA	3	118	9.2e-26	-	23S_rRNA

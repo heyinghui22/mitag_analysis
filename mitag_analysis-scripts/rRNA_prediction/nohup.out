@@ -1,0 +1,4 @@
+../scripts//../rRNA_hmm_fs_wst_v0/rna_hmm3.py -L ../scripts//../rRNA_hmm_fs_wst_v0/HMM3/ -m ssu -i input.1/App.fasta -o output.1/App.fasta
+
+../scripts//../rRNA_hmm_fs_wst_v0/rna_hmm3.py -L ../scripts//../rRNA_hmm_fs_wst_v0/HMM3/ -m ssu -i input.1/assembly.fa.raw -o output.1/assembly.fa.raw
+
