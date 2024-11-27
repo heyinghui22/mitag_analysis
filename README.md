@@ -78,5 +78,8 @@ The output folder structure for the mitag_analysis software typically includes s
 Development environment: Linux  
 Development tool: Pycharm and VScode
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
 ## Contact
 If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.com
