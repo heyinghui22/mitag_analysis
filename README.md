@@ -30,7 +30,11 @@ The command provided, mitag_analysis -i ./testdata -t 16S/18S -th 10, outlines t
 
     -th, --thread: This option allows the user to set the number of threads to be used for the analysis, which can affect the processing speed. In the example command, the value is set to 10.
 
-After processing, it will create an output folder within ./testdata to store the results of the analysis. The 
+After processing, it will create an output folder within ./testdata to store the results of the analysis.
+
+## An example:
+mitag_analysis -i /mnt/data4/project/HYHsoftware240130/6_microbiome_18s/MG/extract18S/ -t 18S -th 60
+Here, the input filepath is "/mnt/data4/project/HYHsoftware240130/6_microbiome_18s/MG/extract18S/", and a filefloder named "illu", which includes the metagenome sequence with .fastq suffix. We want to extract the 18S mitag, so the parameter behind the -t is 18S. Besides, we want to use 60 cores,  so the parameter behind the -th is 60.
 
 ## Optional arguments:
   -i --input_folderpath, The parent directory of the folder containing the Illumina sequencing sequences that need to be extracted. 
