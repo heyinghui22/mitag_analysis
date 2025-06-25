@@ -14,7 +14,7 @@ biopython  | 1.84 |
 pandas  | 2.2.3 |
 
 ## Installation
-conda install mitag_analysis
+conda install heyinghui0722::mitag_analysis
 
 
 ## Run command 
