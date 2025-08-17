@@ -88,4 +88,5 @@ Development tool: Pycharm and VScode
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ## Contact
-If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.com
+If you have any questions, please feel free to contact: heyinghu23@mails.tsinghua.edu.cn
+
